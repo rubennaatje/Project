@@ -34,6 +34,6 @@
             
             $result = mysqli_query($db, $query) or die('Query failed: ' . mysqli_error()); 
         }else{
-            echo "verkeerde hash xd";
+            echo "verkeerde hash";
         }
 ?>
